@@ -1,19 +1,13 @@
-# Filter Module Template
+# 介绍
 
-A clean template for an Xposed/LSPosed module.
+一个精简高德的模块
 
-## Features
-- Modular hook management
-- Context initialization in target application
-- Persistent configuration using SharedPreferences
-- Logging utility
+## 后续打算
+- 目前Lsposed 用的是lagacy（并不是单100）后续会考虑升级到101
+- 可以提出功能适配以及反馈问题
 
-## Project Structure
-- `MainHook`: Entry point for Xposed (`com.bushi.gaodefilter.MainHook`).
-- `MainActivity`: Information page for the module.
-- `utils/`: Log and Preference helpers.
 
-## How to use
-1. Modify `MainHook` to add your specific hooks.
-2. Update the `xposedscope` in `res/values/arrays.xml` to include your target app.
-3. Build and install.
+## 如何使用？
+1.  阅读release 下的日志 
+2.  确认高德适配版本
+3.  安装 然后Lsposed激活这个模块即可
