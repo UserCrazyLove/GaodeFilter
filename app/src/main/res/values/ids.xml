@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 用于 RecyclerView UI 层过滤，标记 itemView 是否已被处理 -->
+    <item name="filter_tag" type="id"/>
+</resources>

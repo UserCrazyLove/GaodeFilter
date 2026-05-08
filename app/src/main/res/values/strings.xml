@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GaoDe Filter</string>
+    <string name="status_detecting">模块状态：检测中&#8230;</string>
+    <string name="open_lsposed">打开 LSPosed 管理器</string>
+    <string name="status_active">模块状态：已激活</string>
+    <string name="status_inactive">模块状态：未激活 (请在 LSPosed 中勾选并重启高德)</string>
+    <string name="lsp_open_failed">无法自动打开 LSPosed，请手动前往勾选</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:ignore="MissingApplicationIcon">
+
+        <!-- 1. 核心标识：必须放在 meta-data 第一位 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="远赴人间惊鸿宴，一睹人间盛世颜" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+
+        <!-- 2. 作用域声明 -->
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposedscope" />
+
+
+
+        <meta-data
+            android:name="scope"
+            android:resource="@array/scope" />
+
+        <activity
+            android:name="com.bushi.gaodefilter.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+            <!-- 3. 让 LSPosed 2.0+ 识别模块设置页的现代方法 -->
+            <intent-filter>
+                <action android:name="org.lsposed.manager.MODULE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

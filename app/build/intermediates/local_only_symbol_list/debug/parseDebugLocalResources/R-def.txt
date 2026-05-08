@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+array scope
+array xposedscope
+color status_active
+color status_inactive
+id btn_open_lsp
+id filter_tag
+id status_text
+layout activity_main
+string app_name
+string lsp_open_failed
+string open_lsposed
+string status_active
+string status_detecting
+string status_inactive

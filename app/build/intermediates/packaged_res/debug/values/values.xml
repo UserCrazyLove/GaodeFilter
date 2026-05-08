@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposedscope">
+        <item>com.ss.android.ugc.aweme</item>
+    </string-array>
+    <item name="dylf_filter_tag" type="id"/>
+    <string name="app_name">抖音低赞过滤</string>
+    <style name="Theme.DouyinLowLikeFilter" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#FF000000</item>
+        <item name="colorPrimaryVariant">#FF000000</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#FFFE2C55</item>
+        <item name="colorSecondaryVariant">#FFFE2C55</item>
+        <item name="colorOnSecondary">#FFFFFFFF</item>
+    </style>
+</resources>
